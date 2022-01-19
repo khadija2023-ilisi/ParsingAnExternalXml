@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:padding="5dp" android:orientation="vertical">
+    <ImageView android:layout_rowSpan="2" android:layout_width="80dp" android:layout_height="70dp" android:scaleType="fitXY" android:id="@+id/imageViewFlag" android:layout_row="0" android:layout_column="0"/>
+    <TextView android:id="@+id/titleText" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="13sp" android:textColor="#FDB013"/>
+    <TextView android:id="@+id/descriptionText" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="5dp" android:textSize="12sp"/>
+</LinearLayout>
